@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h1{
+    margin-left: 20%;
+    margin-bottom: 15px;
+    color: grey;
+}
+
+form {
+    height: 75vh;
+    padding-top: 7%;
+}
+input {
+    height: 35px;
+    margin: auto;
+    width: 60%;
+    display: block;
+    font-size: 14px;
+    padding: 5px;
+    border: 3px solid #ccc;
+    border-radius:8px;
+}
+
+textarea {
+    margin: auto;
+    min-width: 60%;
+    max-width: 60%;
+    display: block;
+    font-size: 14px;
+    padding: 5px;
+    border: 3px solid #ccc;
+    border-radius:8px;
+}
+
+label {
+    margin-left: 20%;
+    font-size: 15px;
+    font-weight: 500;
+    color: black;
+}
+
+.addBtn {
+    padding: 7px 30px;
+    margin-left: 20%;
+    margin-top: 1%;
+    background: linear-gradient(to right, #00093c, #2d0b00);
+    color: white;
+    font-size: 15px;
+    border-radius: 7px
+}
+.card{
+    min-height: 16%;
+    width: 60%;
+    max-width: 60%;
+    display:inline-block ;
+    border: 3px solid #ccc;
+    margin-left: 20%;
+    border-radius: 16px;
+    padding: 12px;
+    margin-bottom: 10px;
+}
+h4{
+    margin-bottom: 12px;
+    font-size: 25px;
+}
+.btn{
+    padding: 7px 30px;
+    margin-top: 3%;
+    background: linear-gradient(to right, #00093c, #2d0b00);
+    color: white;
+    font-size: 15px;
+    border-radius: 7px
+}
+hr{
+    width: 60%;
+    margin-left: 20%;
+    margin: 10px 20%;
+}
+
+@media ( max-width:800px) {
+    h1{
+    margin-left: 5%;
+    }
+    input{
+        width: 90%;   
+    }
+    label{
+        margin-left: 5%;
+    }
+    textarea{
+        min-width: 90%;   
+        max-width: 90%;   
+    }
+    .addBtn{
+    margin-left: 5%;
+    }
+    .card{
+        min-height: 16%;
+        min-width: 90%;
+        margin-left: 3.4%;
+    }
+    form{
+        height: 60vh;
+    }
+    hr{
+        width: 90%;
+        margin-left: 5%;
+    }
+}
